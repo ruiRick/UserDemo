@@ -16,8 +16,9 @@ public class UserServlet extends HttpServlet {
         System.out.println(username+"----"+password);
         System.out.println(username);
         System.out.println(password);
-        System.out.println(username=="admin");
-        System.out.println(password=="123");
+        //System.out.println(username=="admin");
+        //System.out.println(password=="123");
+        System.out.println("git");
 
         if(username.trim().equals("admin") && password.trim().equals("123")){
             System.out.println("登录成功!");
